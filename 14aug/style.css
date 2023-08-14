@@ -1,0 +1,93 @@
+/* selector{
+    property: value;
+    property: value;
+    property: value;
+    property: value;
+    property: value;
+} */
+/* selector: selectors are used to select the HTML elements
+it could be <h1>, <p>,<div> tags,
+*/
+/* declaration block: {} */
+/* declaration: */
+/* p {
+  background-color: blue;
+  color: white;
+  font-size: 25px;
+} */
+/* how to add comments in css */
+/*single line
+multiple
+a
+d
+d
+f
+f
+f*/
+/*  1. universal selector (done)
+    2. Type selector  
+    3. class selector
+    4. ID selector
+    5. Attribute selector
+    6. pseudo elements and pseudo class selectors
+ */
+*{
+    color: red;
+}
+
+/*  2. Type selector */
+h1{
+    background-color: blue;
+    color: yellow;
+}
+
+h1{
+    color: green;
+}
+/*  3. class selector */
+.blog{
+    background-color: pink;
+    color: orange;
+}
+
+.card{
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    background-color: pink;
+    margin: 20px;
+    padding: 20px;
+}
+
+.card-heading{
+    color: blueviolet;
+    text-align: center;
+}
+
+
+.card-body{
+    text-align: justify;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+/* ID selector */
+
+#my-card{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+
+#card-1{
+    border: 10px solid orange;
+}
+
+#card-2{
+    border: 10px solid green;
+}
+
+/* 5. Attribute selector */
+[type="text"]{
+    background-color: yellow;
+}
