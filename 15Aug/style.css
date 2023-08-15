@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+#ayush {
+  color: #2666be;
+  /* Named colors
+     147 named colors
+    */
+  text-align: justify;
+  /* text-decoration: underline dashed; */
+  text-transform: lowercase;
+  /* using text-transform we
+    control the capitalization 
+    of the text. */
+  background-color: red;
+  line-height: 1.5;
+}
+
+#link {
+  text-decoration: none;
+  color: black;
+}
+
+#example-1 {
+  /* text-shadow: 0px 0px 10px red; */
+  /* color: white; */
+  /* text-shadow: horizontal-offset vertical-offset blur-radius color*/
+  /* font-size: 10px; */
+}
+#example-2 {
+  font-size: 120px;
+  /* font-weight: bolder; */
+  /* font-weight changes the 
+    thickness of the text. */
+  font-family: "Inter", sans-serif;
+  font-style: oblique 40deg;
+}
+
+
+#example-3{
+    font-size: 30px;
+    border-style: solid;
+    border-color: pink;
+    border-width: 10px;
+    border-radius:50%;
+}
+
+#example-4{
+    border-style: none;
+}
+
+
+#example-5{
+    width: 400px;
+    height: 400px;
+    /* border-style: dashed;
+    border-color: red;
+    border-width: 10px; */
+    border-radius:50%;
+    background-color: orangered;
+    border: 10px solid blue;
+    
+    /* box-shadow: 0px 100px 100px red; */
+}
+
+
+#example-6{
+    width: 400px;
+    height: 400px;
+    border: 2px solid red;
+    /* background-color: pink; */
+    background-image: url("https://plus.unsplash.com/premium_photo-1691917243211-9e2a353f238b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80");
+    background-size: 100px 100px;
+    /* background-repeat:repeat-y; */
+    /* background-position: bottom 10px; */
+    /* bottom top left right center */
+    /* opacity: 0.5; */
+}
+
+#example-7{
+    width: 50vw;
+    height: 50vh;
+    background-color: blue;
+}
+
+/* viewport */
+
+
+#example-8{
+    width: 50vw;
+    height: 50vh;
+    background-color: #2666be;
+}
+
+
+#example-9{
+    background-color: blueviolet;
+    height: 50%; 
+    width: 50%;
+}
+
+#example-10{
+    background-color: aquamarine;
+    width: 50vw;
+    height: 50vh;
+}
