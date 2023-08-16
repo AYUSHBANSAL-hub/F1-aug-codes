@@ -1,0 +1,153 @@
+/* * {
+  margin: 0px;
+  padding: 0px;
+} */
+#example-1 {
+  width: 400px;
+  height: 400px;
+  background-color: brown;
+  color: white;
+  margin: 20px;
+  padding: 30px;
+}
+#example-2 {
+    width: 400px;
+    height: 400px;
+    background-color: brown;
+    color: white;
+    margin: 20px;
+    padding: 30px;
+    box-sizing:border-box;
+    /* it says do whatever you want 
+    but do not change the dimnesion */
+}
+/* #example-2:hover{
+  background-color: red;
+  border-radius: 10px;
+} */
+/* :hover */
+/* active */
+#btn-1{
+  padding: 20px;
+  border: none;
+  background-color: blue;
+  color: white;
+}
+#btn-1:active{
+  background-color: red;
+}
+ul>li:nth-child(even){
+  color: blue;
+}
+/* #ayush>div>h1{
+  background-color: red;
+}
+#ayush>h2{
+  background-color: blue;
+} */
+
+.box-1{
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+  display: none;
+  /* this value makes an elemen behave like 
+  an inline element similar to span.
+  It will not create line break, if I add inline element after it, 
+  it will allow it too come in the same line */
+}
+/* block element
+width and height */
+/* inline element
+they come in the same line */
+
+.span-1{
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+
+.static-eg{
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+
+.relative-eg{
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  position: relative;
+  top:10px;
+  left: 100px;
+}
+
+.fixed-eg{
+  width: 200px;
+  height: 200px;
+  background-color: pink;
+  position: fixed;
+  top: 200px;
+  right: 0px;
+}
+
+.sticky-eg{
+  width: 200px;
+  height: 200px;
+  background-color: orange;
+  position: sticky;
+  top: 200px;
+}
+
+
+.nav{
+  background-color: black;
+  color: white;
+  padding: 10px;
+  position: sticky;
+  top: 0px;
+}
+
+.nav>h1{
+  display: inline-block;
+  width: 500px;
+}
+
+.nav>a{
+  text-decoration: none;
+  color: white;
+  /* padding-left: 20px;
+  padding-right: 20px; */
+  padding-inline: 20px;
+}
+
+.box-3{
+  width: 400px;
+  height: 400px;
+  background-color: blanchedalmond;
+  position: relative;
+}
+
+.absolute-eg{
+  width: 100px;
+  height: 100px;
+  background-color: blueviolet;
+  position: static;
+  top: 0px;
+  right: 0px;
+}
+.absolute-eg-2{
+  width: 50px;
+  height: 50px;
+  background-color: yellow;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+}
+
+.my-list{
+  list-style-type:upper-latin;
+  list-style-position: outside;
+  /* list-style-image: url("https://acciojob.com/_next/static/media/full_logo.1a83ae71.svg?imwidth=384") */
+
+}

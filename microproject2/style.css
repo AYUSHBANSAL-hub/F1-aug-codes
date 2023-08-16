@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#hero{
+    width: 100vw;
+    /* background-color: white; */
+    background-image: url("https://images.unsplash.com/photo-1689656966481-043a970b7c76?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+#hero-heading{
+    font-size: 50px;
+    padding-top: 100px;
+    text-shadow: 2px 3px 40px black;
+}
+#hero-text{
+    margin-bottom: 30px;
+}
+#hero-btn{
+    background-color: #ff6600;
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+/* pseudo-class selectors */
+#hero-btn:hover{
+    /* targets the button when a user hovers their 
+    mouse pointer on it. */
+    background-color: #ff4500;
+    color: blue;
+}
+/* 
+pseudo class selectors in css allow you 
+to apply styles to elements based on their state or position.
+
+*/
