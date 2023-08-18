@@ -1,0 +1,67 @@
+.main-body {
+  display: flex;
+  width: 100vw;
+  height: 1200px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  border: 5px solid green;
+  /* 
+    main axis: y - justify-content
+    secondary axis: x
+    
+    */
+}
+.item {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  border: 1px solid black;
+}
+.item-1 {
+  background-color: blue;
+  height: 100px;
+}
+.item-2 {
+  background-color: red;
+  height: 200px;
+}
+.item-3 {
+  background-color: green;
+  height: 20px;
+}
+.item-4 {
+  background-color: yellow;
+}
+
+.main-container-2 {
+  width: 400px;
+  height: 400px;
+  background-color: yellow;
+  display: flex;
+}
+
+.items-2 {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  border: 1px solid red;
+}
+
+.yo-1 {
+  background-color: red;
+  order: 4;
+}
+.yo-2 {
+  background-color: pink;
+  order: 2;
+}
+.yo-3 {
+  background-color: green;
+  order: 1;
+}
+.yo-4 {
+  background-color: brown;
+  order: 3;
+}

@@ -1,0 +1,23 @@
+/* Table styling properties */
+
+table {
+  border: 1px solid red;
+  /* border-collapse: collapse; */
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+td {
+  border: 1px solid blue;
+  padding: 10px;
+  width: 200px;
+  height: 100px;
+  text-align: center;
+  vertical-align: top;
+}
+
+
+.col-1{
+    width: 300px;
+    background-color: aqua;
+}

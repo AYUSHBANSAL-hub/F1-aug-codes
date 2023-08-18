@@ -106,6 +106,7 @@ they come in the same line */
   padding: 10px;
   position: sticky;
   top: 0px;
+  z-index: 1;
 }
 
 .nav>h1{
@@ -149,5 +150,30 @@ they come in the same line */
   list-style-type:upper-latin;
   list-style-position: outside;
   /* list-style-image: url("https://acciojob.com/_next/static/media/full_logo.1a83ae71.svg?imwidth=384") */
-
 }
+
+
+.z-eg-1,.z-eg-2,.z-eg-3{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  bottom: 0px;
+  right: 0px;
+}
+
+.z-eg-1{
+  background-color: blue;
+  height: 400px;
+  
+}
+.z-eg-2{
+  background-color: red;
+  height: 300px;
+ 
+}
+.z-eg-3{
+  background-color: pink;
+  height: 200px;
+}
+
+
