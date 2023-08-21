@@ -1,0 +1,42 @@
+/* .container{
+    width: 500px;
+    height: 500px;
+    background-color: yellow;
+    display: grid;
+    grid-gap: 3px ;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 50px 1fr 50px;
+    grid-template-areas:
+    "h h"
+    "m c"
+    "f f";
+} */
+
+/* .item-1{
+    background-color: blue;
+    grid-area: h;
+}
+.item-2{
+    background-color: green;
+    grid-area: m;
+}
+.item-3{
+    background-color: pink;
+    grid-area: c;
+}
+.item-4{
+    background-color: rebeccapurple;
+    grid-area: f;
+} */
+/* .item-5{
+    background-color: orange;
+} */
+
+.box{
+    width: 300px;
+    height: 300px;
+    /* background: linear-gradient(direction, color-stop-1,color-stop-2,color-stop-3,...) */
+    /* background: linear-gradient(90deg,red,pink 50%,purple 90%,green, blue); */
+    /* background: radial-gradient(at left,red,green, blue); */
+
+}

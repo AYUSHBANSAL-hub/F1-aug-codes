@@ -3,7 +3,6 @@
 table {
   border: 1px solid red;
   /* border-collapse: collapse; */
-  border-radius: 50%;
   overflow: hidden;
 }
 
