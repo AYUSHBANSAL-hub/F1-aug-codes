@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- ANNOUCEMENT:
+    CONTEST 2 is STILL UNDER CHECKING -->
+
+    <!-- AGENDA:
+    1. Media Queries
+        - Responsive Web Design (done)
+        - What are media Queries? (done)
+        - Media expressions (done)
+        - SYNTAX (done)
+        - (done) mobile first approach and desktop first approach
+        - Common breakpoints (done)
+        - Examples (done)
+    -->
+
+    <!-- 
+        AccioJob.com is 
+        responsive for 
+        mobile view and desktop
+     -->
+    <!-- 
+        importance/reasons:
+        1. Improved User Experience
+        2. Catering to increase mobile users
+        3. Cost and maintanence efficiency
+        4. SEO score is increased
+        5. Future proof
+     -->
+
+    <!-- media query + flex(yes) -->
+    <!-- media query + grid(yes) -->
+    <!-- media query + flexible layouts(yes) -->
+
+    <!-- What are media Queries? -->
+    <!-- 
+        Media queries are a feature in css
+        that allow developers to apply specific styles based on various screen
+        sizes or various device characteristics( screen size, device type, layout).
+        With MQ web developers can create responsive layouts and ensure that website
+        adapt properly to different devices.
+      -->
+
+    <!-- 
+        multiple ways to write media query syntax
+        1. min-width
+       -->
+
+    <!-- 
+        Common breakpoints:
+        1. Mobile View: 480px-767px
+        2. table view: 768px-991px
+        3. desktop view: 992px and above
+       -->
+
+    <!-- MQ breakpoints are specific screen widths where design and layout
+    need to adapt for good UX -->
+    <nav class="navigation">
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+    <section class="hero">
+        <div class="hero-content">
+          <h1 class="hero-title">Explore the Magical Forest</h1>
+          <p class="hero-description">Embark on an enchanted journey and uncover hidden wonders.</p>
+          <a href="#" class="hero-button">Start Exploring</a>
+        </div>
+    </section>
+   <marquee><h1>My gallery</h1></marquee>
+    <div class="gallery">
+      <div>
+        <img
+          src="https://images.unsplash.com/photo-1683009427598-9c21a169f98f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+          alt="img"
+        />
+      </div>
+      <div>
+        <img
+          src="https://images.unsplash.com/photo-1692087148603-47367a156c11?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=988&q=80"
+          alt="img"
+        />
+      </div>
+      <div>
+        <img
+          src="https://images.unsplash.com/photo-1692610782990-257d61b6c201?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80"
+          alt="img"
+        />
+      </div>
+      <!-- <img src="https://images.unsplash.com/photo-1692566755914-516e4d40520b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=987&q=80" alt="img"> -->
+    </div>
+    <section class="card-section">
+        <div class="col-1">
+            <div class="card">
+                <div class="card__image"></div>
+                <div class="card__content">
+                  <div>
+                    <div class="card__headline">Beautiful Blog Card</div>
+                    <div class="card__author">John Doe</div>
+                    <div class="card__date">July 21, 2023</div>
+                    <div class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet arcu vel massa iaculis gravida. Vivamus id dictum risus.</div>
+                  </div>
+                  <div>
+                    <div class="card__read-more">Read more</div>
+                  </div>
+                </div>
+              </div>
+            <div class="card">
+                <div class="card__image"></div>
+                <div class="card__content">
+                  <div>
+                    <div class="card__headline">Beautiful Blog Card</div>
+                    <div class="card__author">John Doe</div>
+                    <div class="card__date">July 21, 2023</div>
+                    <div class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet arcu vel massa iaculis gravida. Vivamus id dictum risus.</div>
+                  </div>
+                  <div>
+                    <div class="card__read-more">Read more</div>
+                  </div>
+                </div>
+              </div>
+            <div class="card">
+                <div class="card__image"></div>
+                <div class="card__content">
+                  <div>
+                    <div class="card__headline">Beautiful Blog Card</div>
+                    <div class="card__author">John Doe</div>
+                    <div class="card__date">July 21, 2023</div>
+                    <div class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet arcu vel massa iaculis gravida. Vivamus id dictum risus.</div>
+                  </div>
+                  <div>
+                    <div class="card__read-more">Read more</div>
+                  </div>
+                </div>
+              </div>
+            <div class="card">
+                <div class="card__image"></div>
+                <div class="card__content">
+                  <div>
+                    <div class="card__headline">Beautiful Blog Card</div>
+                    <div class="card__author">John Doe</div>
+                    <div class="card__date">July 21, 2023</div>
+                    <div class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet arcu vel massa iaculis gravida. Vivamus id dictum risus.</div>
+                  </div>
+                  <div>
+                    <div class="card__read-more">Read more</div>
+                  </div>
+                </div>
+              </div>
+            <div class="card">
+                <div class="card__image"></div>
+                <div class="card__content">
+                  <div>
+                    <div class="card__headline">Beautiful Blog Card</div>
+                    <div class="card__author">John Doe</div>
+                    <div class="card__date">July 21, 2023</div>
+                    <div class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet arcu vel massa iaculis gravida. Vivamus id dictum risus.</div>
+                  </div>
+                  <div>
+                    <div class="card__read-more">Read more</div>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="col-2">
+            <div class="card">
+                <div class="card__image"></div>
+                <div class="card__content">
+                  <div>
+                    <div class="card__headline">Beautiful Blog Card</div>
+                    <div class="card__author">John Doe</div>
+                    <div class="card__date">July 21, 2023</div>
+                    <div class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet arcu vel massa iaculis gravida. Vivamus id dictum risus.</div>
+                  </div>
+                  <div>
+                    <div class="card__read-more">Read more</div>
+                  </div>
+                </div>
+              </div>
+            <div class="card">
+                <div class="card__image"></div>
+                <div class="card__content">
+                  <div>
+                    <div class="card__headline">Beautiful Blog Card</div>
+                    <div class="card__author">John Doe</div>
+                    <div class="card__date">July 21, 2023</div>
+                    <div class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet arcu vel massa iaculis gravida. Vivamus id dictum risus.</div>
+                  </div>
+                  <div>
+                    <div class="card__read-more">Read more</div>
+                  </div>
+                </div>
+              </div>
+            <div class="card">
+                <div class="card__image"></div>
+                <div class="card__content">
+                  <div>
+                    <div class="card__headline">Beautiful Blog Card</div>
+                    <div class="card__author">John Doe</div>
+                    <div class="card__date">July 21, 2023</div>
+                    <div class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet arcu vel massa iaculis gravida. Vivamus id dictum risus.</div>
+                  </div>
+                  <div>
+                    <div class="card__read-more">Read more</div>
+                  </div>
+                </div>
+              </div>
+            <div class="card">
+                <div class="card__image"></div>
+                <div class="card__content">
+                  <div>
+                    <div class="card__headline">Beautiful Blog Card</div>
+                    <div class="card__author">John Doe</div>
+                    <div class="card__date">July 21, 2023</div>
+                    <div class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet arcu vel massa iaculis gravida. Vivamus id dictum risus.</div>
+                  </div>
+                  <div>
+                    <div class="card__read-more">Read more</div>
+                  </div>
+                </div>
+              </div>
+            <div class="card">
+                <div class="card__image"></div>
+                <div class="card__content">
+                  <div>
+                    <div class="card__headline">Beautiful Blog Card</div>
+                    <div class="card__author">John Doe</div>
+                    <div class="card__date">July 21, 2023</div>
+                    <div class="card__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sit amet arcu vel massa iaculis gravida. Vivamus id dictum risus.</div>
+                  </div>
+                  <div>
+                    <div class="card__read-more">Read more</div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <footer>
+        <div class="row-1">
+        <div class="sec">
+            <h4>Audible</h4>
+            <p>Download Audiobooks</p>
+        </div>
+        <div class="sec">
+            <h4>Audible</h4>
+            <p>Download Audiobooks</p>
+        </div>
+        <div class="sec">
+            <h4>Audible</h4>
+            <p>Download Audiobooks</p>
+        </div>
+        <div class="sec">
+            <h4>Audible</h4>
+            <p>Download Audiobooks</p>
+        </div>
+        <div class="sec">
+            <h4>Audible</h4>
+            <p>Download Audiobooks</p>
+        </div>
+        <div class="sec">
+            <h4>Audible</h4>
+            <p>Download Audiobooks</p>
+        </div>
+        <div class="sec">
+            <h4>Audible</h4>
+            <p>Download Audiobooks</p>
+        </div>
+        <div class="sec">
+            <h4>Audible</h4>
+            <p>Download Audiobooks</p>
+        </div>
+        <div class="sec">
+            <h4>Audible</h4>
+            <p>Download Audiobooks</p>
+        </div>
+    </div>
+    <div class="row-2" >
+        <a href="#">Privacy Notice</a>
+        <a href="#">Privacy Notice</a>
+        <a href="#">Privacy Notice</a>
+    </div>
+    <div class="row-3">
+        © 1996-2023, Amazon.com, Inc. or its affiliates
+    </div>
+    </footer>
+  </body>
+</html>
