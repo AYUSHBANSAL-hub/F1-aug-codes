@@ -1,0 +1,19 @@
+.grid {
+  display: flex;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin: 20px;
+}
+
+img {
+    margin-top: 20px;
+    width: 100%;
+    transition: all 1s ease;
+}
+
+img:hover{
+    scale: 1.2;
+}
